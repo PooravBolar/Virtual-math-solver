@@ -21,7 +21,7 @@ with col2:
     st.title("Answer")
     output_text_area = st.empty()
 
-genai.configure(api_key="AIzaSyBKTKm-bPWxS_KjEuXKcluqY-S9zNFjSyg")
+genai.configure(api_key="ADD_YOUR_GEMINI_API_KEY")
 # The Gemini 1.5 models are versatile and work with both text-only and multimodal prompts
 model = genai.GenerativeModel('gemini-1.5-flash')
 
